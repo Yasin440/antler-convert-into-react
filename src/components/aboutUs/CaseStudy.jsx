@@ -1,7 +1,7 @@
 import React from 'react';
 import { caseStudySliderData } from '../../data/aboutPageData';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar } from 'swiper';
+import { Autoplay, Navigation, Pagination, Scrollbar } from 'swiper';
 import 'swiper/css';
 
 const CaseStudy = () => {
@@ -16,9 +16,13 @@ const CaseStudy = () => {
                         <div className="col-sm-12 col-md-12 col-lg-9">
                             <div className="slider-container slider-filter">
                                 <Swiper
-                                    modules={[Navigation, Pagination, Scrollbar]}
+                                    modules={[Autoplay, Navigation, Pagination, Scrollbar]}
                                     slidesPerView={1}
                                     loop={true}
+                                    autoplay={{
+                                        delay: 8000,
+                                        disableOnInteraction: false,
+                                    }}
                                     navigation
                                     pagination={{ clickable: true }}
                                     scrollbar={{ draggable: true }}

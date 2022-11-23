@@ -1407,7 +1407,8 @@ nav .tech-box svg:hover {
     transform: translateY(-50%)
 }
 
-.homeSlider .title {
+.homeSlider .title,
+.homeSlider .index-module_type__E-SaG {
     position: relative;
     margin-bottom: 20px;
     color: #fff;

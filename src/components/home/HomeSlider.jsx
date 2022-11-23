@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import { TypeAnimation } from 'react-type-animation';
 
 const HomeSlider = () => {
     return (
@@ -9,7 +10,20 @@ const HomeSlider = () => {
                     <div className="container">
                         <img className="svg custom-element-right" src="./img/patterns/cloud3d.svg" alt="Cloud VPS Server" />
                         <div className="col-sm-12 col-md-8 px-0">
-                            <h1 className="title">Dedicated With</h1>
+                            <h1 className="title">Dedicated With</h1><br/>
+                            <TypeAnimation
+                                sequence={[
+                                    "Premium hardware.",
+                                    3000,
+                                    "Large performance.",
+                                    3000,
+                                    "Fully dedicated.",
+                                    3000
+                                ]}
+                                wrapper="h1"
+                                cursor={true}
+                                repeat={Infinity}
+                            />
                             <p className="subheading">Powerful servers with high-end resources that will guarantee resource exclusivity, starting at just
                                 <b className="c-pink">$90.22/mo</b>
                             </p>
