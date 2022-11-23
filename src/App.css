@@ -1,0 +1,17 @@
+/* <!-- Fonts --> */
+@import url('../src/assets/fonts/cloudicon/cloudicon.css');
+@import url("../src/assets/fonts/fontawesome/css/all.css");
+@import url("../src/assets/fonts/evafeat/evafeat.css");
+/* <!-- RTL STYLES--> */
+/* @import url('../src/assets/css/rtl/bootstrap-rtl.min.css');
+@import url('../src/assets/css/rtl/style-rtl.min.css'); */
+/* <!-- CSS styles --> */
+@import url("../src/assets/css/bootstrap.min.css");
+@import url("../src/assets/css/style.min.css");
+@import url("../src/assets/css/flickity.min.css");
+@import url("../src/assets/css/animate.min.css");
+@import url("../src/assets/css/swiper.min.css");
+@import url("../src/assets/css/filter.css");
+@import url("../src/assets/css/magnific-popup.css");
+@import url("../src/assets/css/custom.css");
+@import url("../src/assets/css/aos.min.css");
