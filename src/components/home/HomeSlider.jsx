@@ -4,13 +4,13 @@ import { TypeAnimation } from 'react-type-animation';
 
 const HomeSlider = () => {
     return (
-        <Carousel className="homeSlider" style={{ padding: 118 }}>
+        <Carousel className="homeSlider" style={{ padding: "118px 0px" }}>
             <Carousel.Item>
                 <div className="slider-content">
                     <div className="container">
                         <img className="svg custom-element-right" src="./img/patterns/cloud3d.svg" alt="Cloud VPS Server" />
                         <div className="col-sm-12 col-md-8 px-0">
-                            <h1 className="title">Dedicated With</h1><br/>
+                            <h1 className="title">Dedicated With</h1><br />
                             <TypeAnimation
                                 sequence={[
                                     "Premium hardware.",

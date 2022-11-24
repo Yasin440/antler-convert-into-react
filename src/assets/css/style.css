@@ -1214,15 +1214,12 @@ a.plans.badge.feat:hover {
 nav .tech-box {
 	margin-right: 15px;
 	cursor: pointer;
-}
-
-nav .tech-box svg {
 	width: 30px;
 	vertical-align: text-top;
 	opacity: 1;
 }
 
-nav .tech-box svg:hover {
+nav .tech-box:hover {
 	opacity: 0.6;
 	-webkit-transition: 0.3s;
 	-moz-transition: 0.3s;
